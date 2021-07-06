@@ -10,5 +10,6 @@ Cambiarse al directorio de ejercicios y usar el comando de python para ejecutars
 
 ```sh
 cd ejercicios
+cd ejercicio
 python ejercicio.py
 ```
