@@ -58,6 +58,9 @@ print(bool(0), bool(""), bool(":)"), bool(-3.14))
 # Están comentadas para que no arroje excepción
 # Texto que no es numero a int y float
 # int("Hola")
+# Excepción: ValueError: invalid literal for int() with base 10: 'Hola'
 # float("Mundo")
+# Excepción: ValueError: could not convert string to float: 'Mundo'
 # Texto con numero flotante a int
 # int("3.1416")
+# Excepción: ValueError: invalid literal for int() with base 10: '3.1416'
